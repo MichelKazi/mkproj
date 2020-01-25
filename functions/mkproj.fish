@@ -13,7 +13,7 @@ function mkproj --argument-names 'name' 'remote'
 
 		if test -n "$remote" # if a link to a new repo is provided
 			switch $remote
-				case "github"	
+				case "--github"	
 					if type -q hub
 						hub create
 						git push -u origin master

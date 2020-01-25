@@ -1,6 +1,6 @@
 <img src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg" align="left" width="144px" height="144px"/>
 
-#### mkproj
+### mkproj
 > A plugin for [Oh My Fish][omf-link].
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
@@ -9,6 +9,8 @@
 
 <br/>
 
+This is a simple function I wrote for fish so I can be lazy and create new projects with one command  
+Ironically, I made this to save like 5 seconds when creating a new project  
 
 ## Install
 
@@ -23,9 +25,9 @@ $ omf install mkproj
 $ mkproj <project-name>
 ```
 
-if you have hub installed, you can create a new repository in github as well:  
+If you have hub installed, you can create a new repository in github by adding `--github`:  
 ```fish
-$ mkproj <project-name> github
+$ mkproj <project-name> --github
 ```
 
 
