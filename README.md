@@ -29,6 +29,7 @@ If you have hub installed, you can create a new repository in github by adding `
 ```fish
 $ mkproj <project-name> --github
 ```
+You can install Hub from [here](https://github.com/github/hub) if you want to use that command
 
 
 # License
