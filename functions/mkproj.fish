@@ -1,7 +1,7 @@
 function mkproj --argument-names 'name' 'remote'
 
 	if [ -z "$argv" ] # if $argv is empty
-		echo "usage: mkproj <name> [<remote-to-repository>]"
+		echo "usage: mkproj <name> "
 		return
 	else
 		mkdir $name;
