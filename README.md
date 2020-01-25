@@ -20,7 +20,12 @@ $ omf install mkproj
 ## Usage
 
 ```fish
-$ mkproj
+$ mkproj <project-name>
+```
+
+if you have hub installed, you can create a new repository in github as well:  
+```fish
+$ mkproj <project-name> github
 ```
 
 

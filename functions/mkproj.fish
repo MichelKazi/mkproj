@@ -13,10 +13,6 @@ function mkproj --argument-names 'name' 'remote'
 
 		if test -n "$remote" # if a link to a new repo is provided
 			switch $remote
-				case "http*"	
-					git remote add origin $remote	
-					git push -u origin master
-					return
 				case "github"	
 					if type -q hub
 						hub create
@@ -26,7 +22,6 @@ function mkproj --argument-names 'name' 'remote'
 						echo "You need to have Github's hub CLI installed"
 					end
 			end
-			echo "$remote is not a valid link 😢"
 		end
 	end
 	
